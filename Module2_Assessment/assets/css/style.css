@@ -1,0 +1,54 @@
+*{
+    background-color: orange;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Piedra', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img{
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-left: 250px;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    border: 5px solid black;
+    padding-bottom: 200px;
+}
+
+.container{
+    font-family: 'Graduate', cursive;
+    float: left;
+    padding: 20px;
+    border: 5px solid black;
+    line-height: 1.5;
+    height: 420px;
+}
+#start{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#wins{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#guessword{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+h5{
+    margin-top: 30px;
+}
+
+#guessed{
+    margin-bottom: 40px;
+}
+
+
+

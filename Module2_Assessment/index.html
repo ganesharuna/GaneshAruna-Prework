@@ -8,34 +8,42 @@
     <title>Hangman game</title>
      <link rel="stylesheet" href="assets/css/reset.css"> 
      <link rel="stylesheet" href="assets/css/style.css"> 
-    
+     <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
     </head>
 
 <header>
-  <h1> NBA hangman!</h1>
+  <h1>NBA Hangman!</h1>
 </header>
 
 <body>
 
-<h2> Press any key to get started!</h2>
 
-<div id="start"></div>
 
-<h2>Wins: </h2>
+<img src=assets/images/nba.jpg class="img-fluid" alt="profile picture"> 
 
-<div id="wins"></div>
+<span class="container">
+  <div id="start">
+    <p> Press any key to get started!</p>
+  </div>
 
-<h2> Current Word</h2>
+  <h2>Wins: </h2>
 
-<div id="guessword"></div>
+  <div id="wins"></div>
 
-<h2>Number of guesses remaining:</h2>
+  <h3> Current Word</h3>
 
-<div id="guessnumber"></div>
+  <div id="guessword"></div>
 
-<h2>Letters already guessed</h2>
+  <h4>Number of guesses remaining:</h4>
 
-<div id="guessed"></div>
+  <div id="guessnumber"></div>
+
+  <h5>Letters already guessed: </h5>
+
+  <div id="guessed"></div>
+</span>
+
 
 <script src="assets/javascript/game.js"></script>
 
