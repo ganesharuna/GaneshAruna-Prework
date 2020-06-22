@@ -9,19 +9,27 @@ header{
     margin-bottom: 50px;
 }
 
-img{
+.container1{
+    font-family: 'Piedra', cursive;
+    float: left;
+    padding: 20px;
+    border: 5px solid black;
+    line-height: 1.5;
+    height: 420px;
     max-width: 30%;
-    height: auto;
-    display: block;
-    margin-left: 250px;
+    margin-left: 240px;
     float: left;
     margin-right: 20px;
-    padding: 10px;
-    border: 5px solid black;
-    padding-bottom: 200px;
+    font-size: 30px;
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 50px;
 }
 
-.container{
+
+.container2{
     font-family: 'Graduate', cursive;
     float: left;
     padding: 20px;
